@@ -20,8 +20,12 @@ card
 Make a second list where each element contains all the options for suit, face, and value, respectively. 
 
 ```{r}
-
-
+card_two <- list(
+  suit = c("Spades", "Diamonds", "Clubs", "Hearts"),
+  face = c("Jack", "Queen", "King"),
+  value = c(1:13)
+)
+card_two
 ```
 
 
@@ -48,5 +52,4 @@ Let `x <- list(a=5:10, c="Hello", d="AA")`, write an R statement to add a new it
 ```{r}
 x <- list(a=5:10, c="Hello", d="AA")
 x$z <- "NewIem"
-
 ```
